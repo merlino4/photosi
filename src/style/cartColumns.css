@@ -1,0 +1,9 @@
+.riga{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}

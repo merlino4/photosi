@@ -1,0 +1,37 @@
+.minus,.plus,.count{
+    background: transparent;
+    border-radius: 0 ;
+    color: black;
+    text-transform: capitalize;
+    border: 2px solid black;
+    cursor: pointer;
+    
+}
+
+.minus:hover,.plus:hover{
+background: black;
+color: white;
+}
+.container-cartitem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 92%;
+    padding:20px 0;
+}
+.remove-cart{
+    position: relative;
+    left: 60px;
+    color: red;
+}
+.total-cart{
+    position: relative;
+    left: 130px;
+}
+.button-container span{
+    padding:1px;
+}
+.button-container{
+    position: relative;
+    left: 5px;
+}
